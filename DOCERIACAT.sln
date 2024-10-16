@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOCERIACAT", "DOCERIACAT\DOCERIACAT.csproj", "{0C518762-05FB-4CF7-813B-8B6473263794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C518762-05FB-4CF7-813B-8B6473263794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C518762-05FB-4CF7-813B-8B6473263794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C518762-05FB-4CF7-813B-8B6473263794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C518762-05FB-4CF7-813B-8B6473263794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E13C0A0-5756-4A85-A90C-652B1DBE6E78}
+	EndGlobalSection
+EndGlobal
