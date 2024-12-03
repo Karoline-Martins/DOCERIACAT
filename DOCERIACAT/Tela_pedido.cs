@@ -10,22 +10,20 @@ using System.Windows.Forms;
 
 namespace DOCERIACAT
 {
-    public partial class Tela_cardapio : Form
+    public partial class Tela_pedido : Form
     {
-        public Tela_cardapio()
+        public Tela_pedido()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            Tela_pedido tela_Pedido = new Tela_pedido();
+            Tela_final tela_Final = new Tela_final();
             this.Visible = false;
-            tela_Pedido.ShowDialog();
+            tela_Final.ShowDialog();
             this.Visible = true;
+
         }
     }
 }
-
-

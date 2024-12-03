@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastroDAO.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="ClienteDAO.cs" />
+    <Compile Include="Connection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tela_Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Cadastro.Designer.cs">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_cardapio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +75,18 @@
     </Compile>
     <Compile Include="Tela_entrar.Designer.cs">
       <DependentUpon>Tela_entrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_final.Designer.cs">
+      <DependentUpon>Tela_final.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_pedido.Designer.cs">
+      <DependentUpon>Tela_pedido.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -79,11 +101,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tela_Cadastro.resx">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela_cardapio.resx">
       <DependentUpon>Tela_cardapio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_entrar.resx">
       <DependentUpon>Tela_entrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_final.resx">
+      <DependentUpon>Tela_final.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_pedido.resx">
+      <DependentUpon>Tela_pedido.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,6 +140,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Design sem nome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compra finalizada! volte sempre..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um subtítulo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

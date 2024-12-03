@@ -73,6 +73,36 @@ namespace DOCERIACAT.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOMBOM_DE_GATO {
+            get {
+                object obj = ResourceManager.GetObject("BOMBOM DE GATO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOMBOM_DE_GATO__1_ {
+            get {
+                object obj = ResourceManager.GetObject("BOMBOM DE GATO (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap compra_finalizada__volte_sempre_ {
+            get {
+                object obj = ResourceManager.GetObject("compra finalizada! volte sempre.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome", resourceCulture);
@@ -96,6 +126,16 @@ namespace DOCERIACAT.Properties {
         internal static System.Drawing.Bitmap DOCERIA {
             get {
                 object obj = ResourceManager.GetObject("DOCERIA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_subtítulo {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um subtítulo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
